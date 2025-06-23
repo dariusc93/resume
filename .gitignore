@@ -1,0 +1,27 @@
+# Rust
+/target/
+Cargo.lock
+
+# Trunk build output
+/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Node modules
+/node_modules/
+package-lock.json

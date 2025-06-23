@@ -1,0 +1,87 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "position": "Senior Software Engineer",
+      "company": "Satellite IM",
+      "duration": "2022 - 2025",
+      "technologies": ["Rust", "Decentralized", "IPFS"]
+    },
+    {
+      "id": 2,
+      "position": "Advisor",
+      "company": "Finsoft Studio",
+      "duration": "2021 - 2022",
+      "technologies": ["Rust", "C++"]
+    },
+    {
+      "id": 3,
+      "position": "Senior Software Manager",
+      "company": "Bich Technologies",
+      "duration": "2020 - 2020",
+      "technologies": ["Rust", "Ethereum"]
+    },
+    {
+      "id": 4,
+      "position": "Software Engineer",
+      "company": "Finsoft Studio",
+      "duration": "2019 - 2020",
+      "technologies": ["Rust", "Nginx"]
+    },
+    {
+      "id": 5,
+      "position": "Senior Software Engineer",
+      "company": "Bich Technologies",
+      "duration": "2018 - 2020",
+      "technologies": ["Rust", "Go", "NodeJS", "Perl", "Python", "Lighttpd"]
+    },
+    {
+      "id": 5,
+      "position": "Founder and CEO",
+      "company": "Zethink Technologies",
+      "duration": "2015 - 2018",
+      "technologies": ["Rust", "C", "C++", "KVM", "Virtualization", "Linux"]
+    },
+    {
+      "id": 6,
+      "position": "Co-Founder and Technical Manager",
+      "company": "Atmis Labs",
+      "duration": "2016 - 2016",
+      "technologies": ["C++", "Python", "Java"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "Xavier University",
+      "year": "2013 - 2015"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "items": ["Rust", "C++", "C", "Go", "JavaScript", "TypeScript", "Python", "Java", "Dart"]
+    },
+    {
+      "name": "Operating Systems",
+      "items": ["Linux", "MacOS", "FreeBSD", "Windows", "Android", "iOS"]
+    },
+    {
+      "name": "Frontend Technologies",
+      "items": ["Vue.js", "React", "HTML5", "CSS3", "SASS", "Yew", "Angular"]
+    },
+    {
+      "name": "Databases",
+      "items": ["MySQL", "PostgreSQL", "MongoDB", "LevelDB", "Redis", "Cassandra"]
+    },
+    {
+      "name": "Technologies",
+      "items": ["WebAssembly", "IPFS", "LibP2P", "Solidity", "Bitcoin", "Ethereum", "Solana", "Git"]
+    },
+    {
+      "name": "Infrastructure",
+      "items": ["AWS", "GCP", "KVM", "Docker", "Podman", "FreeBSD Jails", "Kubernetes", "Terraform", "RabbitMQ"]
+    }
+  ]
+}

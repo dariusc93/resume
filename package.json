@@ -1,0 +1,15 @@
+{
+  "name": "resume-portfolio",
+  "version": "1.0.0",
+  "description": "Personal site",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "terser": "^5.43.1"
+  }
+}

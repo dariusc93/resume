@@ -5,35 +5,35 @@
       "position": "Senior Software Engineer",
       "company": "Satellite IM",
       "duration": "2022 - 2025",
-      "technologies": ["Rust", "Decentralized", "IPFS"]
+      "technologies": ["Rust", "Decentralized", "IPFS", "Solana", "Blockchain", "JavaScript", "Dart"]
     },
     {
       "id": 2,
       "position": "Advisor",
       "company": "Finsoft Studio",
       "duration": "2021 - 2022",
-      "technologies": ["Rust", "C++"]
+      "technologies": ["Rust", "C++", "Docker", "Kubernetes"]
     },
     {
       "id": 3,
       "position": "Senior Software Manager",
       "company": "Bich Technologies",
       "duration": "2020 - 2020",
-      "technologies": ["Rust", "Ethereum"]
+      "technologies": ["Rust", "Ethereum", "Docker"]
     },
     {
       "id": 4,
       "position": "Software Engineer",
       "company": "Finsoft Studio",
       "duration": "2019 - 2020",
-      "technologies": ["Rust", "Nginx"]
+      "technologies": ["Rust", "Nginx", "HAProxy", "Kubernetes"]
     },
     {
       "id": 5,
       "position": "Senior Software Engineer",
       "company": "Bich Technologies",
       "duration": "2018 - 2020",
-      "technologies": ["Rust", "Go", "NodeJS", "Perl", "Python", "Lighttpd"]
+      "technologies": ["Rust", "Go", "NodeJS", "Perl", "Python", "Lighttpd", "Docker"]
     },
     {
       "id": 5,
@@ -47,7 +47,7 @@
       "position": "Co-Founder and Technical Manager",
       "company": "Atmis Labs",
       "duration": "2016 - 2016",
-      "technologies": ["C++", "Python", "Java"]
+      "technologies": ["C", "C++", "Python", "Java", "JavaScript", "Linux", "FreeBSD"]
     }
   ],
   "education": [

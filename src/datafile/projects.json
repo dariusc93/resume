@@ -3,15 +3,22 @@
     "id": 1,
     "name": "connexa",
     "description": "High level abstraction of rust-libp2p.",
-    "technologies": ["Rust", "LibP2P"],
+    "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking"],
     "github": "https://github.com/dariusc93/connexa"
   },
   {
     "id": 2,
     "name": "rust-ipfs",
     "description": "The InterPlanetary File System (IPFS), implemented in Rust.",
-    "technologies": ["Rust", "LibP2P", "IPFS", "IPLD", "UnixFS"],
+    "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking", "IPFS", "IPLD", "UnixFS"],
     "github": "https://github.com/dariusc93/rust-ipfs"
+  },
+  {
+    "id": 2,
+    "name": "rust-libp2p",
+    "description": "Rust implementation of the LibP2P networking stack.",
+    "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking"],
+    "github": "https://github.com/libp2p/rust-libp2p"
   },
   {
     "id": 3,
@@ -31,7 +38,7 @@
     "id": 5,
     "name": "igd-next",
     "description": "Internet Gateway Device (UPnP) client",
-    "technologies": ["Rust", "UPnP", "IGD"],
+    "technologies": ["Rust", "UPnP", "IGD", "Networking"],
     "github": "https://github.com/dariusc93/rust-igd"
   }
 ]

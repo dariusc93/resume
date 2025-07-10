@@ -3,6 +3,8 @@ use stylist::{yew::styled_component, Style};
 use yew::prelude::*;
 use yew_router::prelude::*;
 
+const SHOW_LEGAL: bool = false;
+
 #[derive(Properties, PartialEq)]
 pub struct SidebarProps {
     pub profile: Profile,
@@ -209,22 +211,24 @@ pub fn sidebar(props: &SidebarProps) -> Html {
                         </div>
                     </div>
                 }
-
-                <div class="legal-links">
-                    <Link<Route>
-                        to={Route::Terms}
-                        classes="legal-link"
-                    >
-                        {"Terms"}
-                    </Link<Route>>
-                    <span class="legal-separator">{"·"}</span>
-                    <Link<Route>
-                        to={Route::Privacy}
-                        classes="legal-link"
-                    >
-                        {"Privacy"}
-                    </Link<Route>>
-                </div>
+                
+                if SHOW_LEGAL {
+                    <div class="legal-links">
+                        <Link<Route>
+                            to={Route::Terms}
+                            classes="legal-link"
+                        >
+                            {"Terms"}
+                        </Link<Route>>
+                        <span class="legal-separator">{"·"}</span>
+                        <Link<Route>
+                            to={Route::Privacy}
+                            classes="legal-link"
+                        >
+                            {"Privacy"}
+                        </Link<Route>>
+                    </div>
+                }
             </div>
         </div>
     }

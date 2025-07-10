@@ -90,6 +90,30 @@ pub fn sidebar(props: &SidebarProps) -> Html {
             color: #a78bfa;
             box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
         }
+
+        .legal-links {
+            padding: 20px 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .legal-link {
+            font-size: 0.875rem;
+            color: #6b7280;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .legal-link:hover {
+            color: #9ca3af;
+        }
+
+        .legal-separator {
+            color: #4b5563;
+        }
         "#
     ))
     .expect("Failed to create style");
@@ -161,7 +185,7 @@ pub fn sidebar(props: &SidebarProps) -> Html {
                     </Link<Route>>
                 </nav>
 
-                if props.profile.hide_get_in_touch() {
+                if !props.profile.hide_get_in_touch() {
                     <div class="sidebar-footer">
                         <div class="social-links">
                             <p>{"Get in touch"}</p>
@@ -185,6 +209,22 @@ pub fn sidebar(props: &SidebarProps) -> Html {
                         </div>
                     </div>
                 }
+
+                <div class="legal-links">
+                    <Link<Route>
+                        to={Route::Terms}
+                        classes="legal-link"
+                    >
+                        {"Terms"}
+                    </Link<Route>>
+                    <span class="legal-separator">{"·"}</span>
+                    <Link<Route>
+                        to={Route::Privacy}
+                        classes="legal-link"
+                    >
+                        {"Privacy"}
+                    </Link<Route>>
+                </div>
             </div>
         </div>
     }

@@ -3,6 +3,8 @@ use serde::{Deserialize, Serialize};
 const ABOUT: &str = include_str!("../datafile/about.json");
 const PROJECTS: &str = include_str!("../datafile/projects.json");
 const RESUME: &str = include_str!("../datafile/resume.json");
+const TERMS: &str = include_str!("../datafile/terms.json");
+const PRIVACY: &str = include_str!("../datafile/privacy.json");
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct Profile {
@@ -94,6 +96,14 @@ pub fn get_about() -> About {
     serde_json::from_str(ABOUT).expect("valid json")
 }
 
+pub fn get_terms() -> Terms {
+    serde_json::from_str(TERMS).expect("valid json")
+}
+
+pub fn get_privacy() -> Privacy {
+    serde_json::from_str(PRIVACY).expect("valid json")
+}
+
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct AboutSection {
     pub title: String,
@@ -106,4 +116,24 @@ pub struct About {
     pub sections: Vec<AboutSection>,
     pub interests: Vec<String>,
     pub values: Vec<String>,
+}
+
+#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
+pub struct LegalSection {
+    pub title: String,
+    pub content: String,
+}
+
+#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
+pub struct Terms {
+    pub title: String,
+    pub effective_date: String,
+    pub sections: Vec<LegalSection>,
+}
+
+#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
+pub struct Privacy {
+    pub title: String,
+    pub effective_date: String,
+    pub sections: Vec<LegalSection>,
 }

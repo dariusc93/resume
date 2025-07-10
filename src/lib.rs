@@ -4,7 +4,7 @@ use yew_router::prelude::*;
 mod components;
 mod data;
 
-use components::{AboutView, ContactView, NotFoundView, ProjectsView, ResumeView, Sidebar};
+use components::{AboutView, ContactView, NotFoundView, PrivacyView, ProjectsView, ResumeView, Sidebar, TermsView};
 use data::Profile;
 
 pub const BASE_URL: &str = "{API_SERVER}";
@@ -19,6 +19,10 @@ enum Route {
     Projects,
     #[at("/contact")]
     Contact,
+    #[at("/terms")]
+    Terms,
+    #[at("/privacy")]
+    Privacy,
     #[not_found]
     #[at("/404")]
     NotFound,
@@ -30,6 +34,8 @@ fn switch(routes: Route) -> Html {
         Route::Resume => html! { <ResumeView /> },
         Route::Projects => html! { <ProjectsView /> },
         Route::Contact => html! { <ContactView /> },
+        Route::Terms => html! { <TermsView /> },
+        Route::Privacy => html! { <PrivacyView /> },
         Route::NotFound => html! { <NotFoundView /> },
     }
 }

@@ -187,7 +187,7 @@ pub fn sidebar(props: &SidebarProps) -> Html {
                     </Link<Route>>
                 </nav>
 
-                if !props.profile.hide_get_in_touch() {
+                if props.profile.show_get_in_touch() {
                     <div class="sidebar-footer">
                         <div class="social-links">
                             <p>{"Get in touch"}</p>

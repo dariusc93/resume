@@ -17,8 +17,8 @@ pub struct Profile {
 }
 
 impl Profile {
-    pub fn hide_get_in_touch(&self) -> bool {
-        self.email.is_none() && self.linkedin.is_none() && self.github.is_none()
+    pub fn show_get_in_touch(&self) -> bool {
+        self.email.is_some() || self.linkedin.is_some() || self.github.is_some()
     }
 }
 

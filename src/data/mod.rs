@@ -37,7 +37,7 @@ pub struct Education {
     pub id: u32,
     pub degree: String,
     pub school: String,
-    pub year: String,
+    pub year: Option<String>,
     pub details: Option<String>,
 }
 

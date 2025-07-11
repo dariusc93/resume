@@ -275,7 +275,9 @@ fn render_education(edu: &Education) -> Html {
         <div class="education-item">
             <div class="item-header">
                 <h3 class="item-title">{&edu.degree}</h3>
-                <span class="item-duration">{&edu.year}</span>
+                if let Some(year) = edu.year.as_ref() {
+                    <span class="item-duration">{year}</span>
+                }
             </div>
             <p class="item-company">{&edu.school}</p>
             <p class="item-description">{&edu.details}</p>

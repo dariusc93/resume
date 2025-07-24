@@ -40,5 +40,12 @@
     "description": "Internet Gateway Device (UPnP) client",
     "technologies": ["Rust", "UPnP", "IGD", "Networking"],
     "github": "https://github.com/dariusc93/rust-igd"
+  },
+  {
+    "id": 6,
+    "name": "futures-timeout",
+    "description": "A utility that provides timeouts for futures and streams",
+    "technologies": ["Rust", "Asynchronous"],
+    "github": "https://github.com/dariusc93/futures-timeout"
   }
 ]

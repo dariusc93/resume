@@ -16,8 +16,6 @@ pub struct SidebarProps {
 
 #[styled_component(Sidebar)]
 pub fn sidebar(props: &SidebarProps) -> Html {
-    let _navigator = use_navigator().unwrap();
-
     // Get the current route directly from the router hook
     let current_route = use_route::<Route>().unwrap_or(Route::About);
 

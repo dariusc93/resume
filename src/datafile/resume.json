@@ -1,56 +1,48 @@
 {
   "experience": [
     {
-      "id": 1,
       "position": "Senior Software Engineer",
       "company": "Satellite IM",
       "duration": "2022 - 2025",
       "technologies": ["Rust", "C", "Decentralized", "IPFS", "IPLD", "Blockchain", "JavaScript", "Dart", "WebAssembly"]
     },
     {
-      "id": 2,
       "position": "Advisor",
       "company": "Finsoft Studio",
       "duration": "2021 - 2022",
       "technologies": ["Rust", "C++", "Docker", "Kubernetes", "MySQL"]
     },
     {
-      "id": 3,
       "position": "Senior Software Manager",
       "company": "Bich Technologies",
       "duration": "2020 - 2020",
       "technologies": ["Rust", "Ethereum", "Docker", "MongoDB"]
     },
     {
-      "id": 4,
       "position": "Software Engineer",
       "company": "Finsoft Studio",
       "duration": "2019 - 2020",
       "technologies": ["Rust", "Nginx", "HAProxy", "Kubernetes", "MySQL"]
     },
     {
-      "id": 5,
       "position": "Senior Software Engineer",
       "company": "Bich Technologies",
       "duration": "2018 - 2020",
       "technologies": ["Rust", "Go", "NodeJS", "Perl", "Python", "Lighttpd", "Docker", "Redis", "PostgreSQL"]
     },
     {
-      "id": 5,
       "position": "Founder and CEO",
       "company": "Zethink Technologies",
       "duration": "2015 - 2018",
       "technologies": ["Rust", "C", "C++", "Go", "DLang", "NodeJS", "KVM", "Virtualization", "Linux", "MongoDB", "Redis"]
     },
     {
-      "id": 6,
       "position": "Co-Founder and Technical Manager",
       "company": "Atmis Labs",
       "duration": "2016 - 2016",
       "technologies": ["C", "C++", "Python", "Java", "JavaScript", "Linux", "FreeBSD"]
     },
     {
-      "id": 7,
       "position": "Founder and Managing Member",
       "company": "Shouthost",
       "duration": "2010 - 2015",
@@ -59,7 +51,6 @@
   ],
   "education": [
     {
-      "id": 1,
       "degree": "Bachelor of Science in Computer Science",
       "school": "Xavier University",
       "year": "2013 - 2015"

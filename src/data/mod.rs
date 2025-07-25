@@ -24,7 +24,6 @@ impl Profile {
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct Experience {
-    pub id: u32,
     pub position: String,
     pub company: String,
     pub duration: String,
@@ -34,7 +33,6 @@ pub struct Experience {
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct Education {
-    pub id: u32,
     pub degree: String,
     pub school: String,
     pub year: Option<String>,
@@ -56,7 +54,6 @@ pub struct Resume {
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct Project {
-    pub id: u32,
     pub name: String,
     pub description: Option<String>,
     pub technologies: Vec<String>,
@@ -65,7 +62,7 @@ pub struct Project {
     pub image: Option<String>,
 }
 
-#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
+#[derive(Default, Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct ContactForm {
     pub name: String,
     pub email: String,
@@ -73,16 +70,6 @@ pub struct ContactForm {
     pub message: String,
 }
 
-impl Default for ContactForm {
-    fn default() -> Self {
-        Self {
-            name: String::new(),
-            email: String::new(),
-            phone: String::new(),
-            message: String::new(),
-        }
-    }
-}
 
 pub fn get_resume() -> Resume {
     serde_json::from_str(RESUME).expect("valid json")

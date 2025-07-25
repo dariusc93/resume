@@ -1,48 +1,41 @@
 [
   {
-    "id": 1,
     "name": "connexa",
     "description": "High level abstraction of rust-libp2p.",
     "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking"],
     "github": "https://github.com/dariusc93/connexa"
   },
   {
-    "id": 2,
     "name": "rust-ipfs",
     "description": "The InterPlanetary File System (IPFS), implemented in Rust.",
     "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking", "IPFS", "IPLD", "UnixFS"],
     "github": "https://github.com/dariusc93/rust-ipfs"
   },
   {
-    "id": 2,
     "name": "rust-libp2p",
     "description": "Rust implementation of the LibP2P networking stack.",
     "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking"],
     "github": "https://github.com/libp2p/rust-libp2p"
   },
   {
-    "id": 3,
     "name": "pollable-map",
     "description": "Future utilities, specifically for storing and managing futures and streams in as a pollable map.",
     "technologies": ["Rust", "Asynchronous"],
     "github": "https://github.com/dariusc93/pollable-map"
   },
   {
-    "id": 4,
     "name": "async-rt",
     "description": "A small library designed to utilize async executors through an common API, with extended features.",
     "technologies": ["Rust", "Tokio", "Asynchronous"],
     "github": "https://github.com/dariusc93/async-rt"
   },
   {
-    "id": 5,
     "name": "igd-next",
     "description": "Internet Gateway Device (UPnP) client",
     "technologies": ["Rust", "UPnP", "IGD", "Networking"],
     "github": "https://github.com/dariusc93/rust-igd"
   },
   {
-    "id": 6,
     "name": "futures-timeout",
     "description": "A utility that provides timeouts for futures and streams",
     "technologies": ["Rust", "Asynchronous"],

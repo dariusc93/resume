@@ -1,6 +1,11 @@
 {
   "intro": "I'm a passionate software engineer with a love for building robust, scalable applications. My journey in technology has been driven by curiosity and a desire to create meaningful solutions that make a difference.",
-  "sections": [],
+  "sections": [
+    {
+      "title": "Hobbies & Personal Interests",
+      "content": "Beyond professional software development, I'm deeply passionate about exploring the intersection of hardware and software. My hobbies include experimenting with electronics, building custom computer systems, and working with radio technologies. I enjoy tinkering with embedded systems, designing circuits, and exploring radio communications through HAM radio, GMRS, and emerging technologies like LoRa. These hands-on experiences with hardware complement my software expertise and provide valuable insights into system-level programming and IoT applications."
+    }
+  ],
   "interests": [
     "Open Source",
     "Web3 Technologies",

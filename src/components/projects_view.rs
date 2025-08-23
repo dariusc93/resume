@@ -187,7 +187,7 @@ pub fn projects_view() -> Html {
                 </div>
 
                 <div class="projects-grid">
-                    { for projects.iter().map(|project| render_project(project)) }
+                    { for projects.iter().map(render_project) }
                 </div>
             </div>
         </div>

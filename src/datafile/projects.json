@@ -3,42 +3,49 @@
     "name": "connexa",
     "description": "High level abstraction of rust-libp2p.",
     "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking"],
-    "github": "https://github.com/dariusc93/connexa"
+    "github": "https://github.com/dariusc93/connexa",
+    "date": "2025"
   },
   {
     "name": "rust-ipfs",
     "description": "The InterPlanetary File System (IPFS), implemented in Rust.",
     "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking", "IPFS", "IPLD", "UnixFS"],
-    "github": "https://github.com/dariusc93/rust-ipfs"
+    "github": "https://github.com/dariusc93/rust-ipfs",
+    "date": "2023"
   },
   {
     "name": "rust-libp2p",
     "description": "Rust implementation of the LibP2P networking stack.",
     "technologies": ["Rust", "LibP2P", "Tokio", "Asynchronous", "Networking"],
-    "github": "https://github.com/libp2p/rust-libp2p"
+    "github": "https://github.com/libp2p/rust-libp2p",
+    "date": "2023"
   },
   {
     "name": "pollable-map",
     "description": "Future utilities, specifically for storing and managing futures and streams in as a pollable map.",
     "technologies": ["Rust", "Asynchronous"],
-    "github": "https://github.com/dariusc93/pollable-map"
+    "github": "https://github.com/dariusc93/pollable-map",
+    "date": "2024"
   },
   {
     "name": "async-rt",
     "description": "A small library designed to utilize async executors through an common API, with extended features.",
     "technologies": ["Rust", "Tokio", "Asynchronous"],
-    "github": "https://github.com/dariusc93/async-rt"
+    "github": "https://github.com/dariusc93/async-rt",
+    "date": "2024"
   },
   {
     "name": "igd-next",
     "description": "Internet Gateway Device (UPnP) client",
     "technologies": ["Rust", "UPnP", "IGD", "Networking"],
-    "github": "https://github.com/dariusc93/rust-igd"
+    "github": "https://github.com/dariusc93/rust-igd",
+    "date": "2022"
   },
   {
     "name": "futures-timeout",
     "description": "A utility that provides timeouts for futures and streams",
     "technologies": ["Rust", "Asynchronous"],
-    "github": "https://github.com/dariusc93/futures-timeout"
+    "github": "https://github.com/dariusc93/futures-timeout",
+    "date": "2024"
   }
 ]

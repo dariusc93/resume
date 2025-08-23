@@ -91,6 +91,20 @@ pub fn projects_view() -> Html {
             flex: 1;
         }
 
+        .project-date {
+            color: #9ca3af;
+            font-size: 0.875rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .project-date i {
+            font-size: 0.75rem;
+        }
+
         .tech-tags {
             display: flex;
             flex-wrap: wrap;
@@ -194,6 +208,12 @@ fn render_project(project: &Project) -> Html {
 
             <div class="project-content">
                 <h3 class="project-title">{&project.name}</h3>
+                if let Some(date) = &project.date {
+                    <div class="project-date">
+                        <i class="far fa-calendar"></i>
+                        {date}
+                    </div>
+                }
                 <p class="project-description">{&project.description}</p>
 
                 <div class="tech-tags">

@@ -60,6 +60,7 @@ pub struct Project {
     pub website: Option<String>,
     pub github: Option<String>,
     pub image: Option<String>,
+    pub date: Option<String>,
 }
 
 #[derive(Default, Clone, Debug, PartialEq, Serialize, Deserialize)]

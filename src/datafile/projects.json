@@ -60,7 +60,7 @@
     "description": "A programming environment that combines safety, speed, and simplicity.",
     "keywords": ["Rust", "Lua", "Actix"],
     "github": "https://github.com/jazzdotdev/jazz",
-    "date": "2017"
+    "date": "2018"
   },
   {
     "name": "libstripe",

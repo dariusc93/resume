@@ -454,8 +454,14 @@ body {
         transform: translateX(-100%);
     }
     
-    .sidebar.mobile-open {
-        transform: translateX(0);
+    .sidebar-mobile {
+        width: 100vw;
+        max-width: 100%;
+    }
+    
+    .sidebar-mobile.open {
+        width: 100vw;
+        max-width: 100%;
     }
     
     .main-content {

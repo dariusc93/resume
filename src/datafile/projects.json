@@ -47,5 +47,93 @@
     "technologies": ["Rust", "Asynchronous"],
     "github": "https://github.com/dariusc93/futures-timeout",
     "date": "2024"
+  },
+  {
+    "name": "crypto-seal",
+    "description": "Small crypto utility to encrypt serde-compatible data type.",
+    "technologies": ["Rust", "Cryptography", "Serde", "Security"],
+    "github": "https://github.com/dariusc93/crypto-seal",
+    "date": "2019"
+  },
+  {
+    "name": "jazz",
+    "description": "A programming environment that combines safety, speed, and simplicity.",
+    "technologies": ["Rust", "Lua", "Actix"],
+    "github": "https://github.com/jazzdotdev/jazz",
+    "date": "2017"
+  },
+  {
+    "name": "libstripe",
+    "description": "Library that interacts with Stripe API",
+    "technologies": ["Rust", "Finance", "Payments"],
+    "github": "https://github.com/bundleofbytes/libstripe",
+    "date": "2017"
+  },
+  {
+    "name": "AtlasDB",
+    "description": "A Scalable and Portable NoSQL Database written Rust that is ACID compliant. Semi compatible with MongoDB, supporting direct migration.",
+    "technologies": ["Rust", "NoSQL"],
+    "date": "2015"
+  },
+  {
+    "name": "libvirt-rs",
+    "description": "libvirt bindings for rust",
+    "technologies": ["Rust", "Virtualization", "C", "FFI"],
+    "date": "2015"
+  },
+  {
+    "name": "ue4-fps-demo",
+    "description": "first-person demo made in UE4",
+    "technologies": ["UE4", "C++"],
+    "date": "2014"
+  },
+  {
+    "name": "mercury-rust",
+    "description": "Library that interacts with Mercury Bank API.",
+    "technologies": ["Rust", "Banking", "Finance"],
+    "github": "https://github.com/nilbytes/mercury-rust",
+    "date": "2021"
+  },
+  {
+    "name": "secure-sync",
+    "description": "Client/Server that synchronized files between PC and Mobile securely.",
+    "technologies": ["C++", "Java", "Windows", "Linux", "Android"],
+    "date": "2010"
+  },
+  {
+    "name": "fs-encrypt",
+    "description": "A portable filesystem designed to store files securely at rest.",
+    "technologies": ["C", "Windows", "Linux", "Android"],
+    "date": "2009"
+  },
+  {
+    "name": "last life",
+    "description": "small survival horror game where you are exploring a town looking for a way out, finding clues on what happened all while avoiding the dark secrets within.",
+    "technologies": ["C", "3D"],
+    "date": "2006"
+  },
+  {
+    "name": "echoman",
+    "description": "small platformer game",
+    "technologies": ["C", "SDL", "2D"],
+    "date": "2004"
+  },
+  {
+    "name": "sectnet",
+    "description": "A take on telnet with a security layer in place to allow communicating to other systems locally",
+    "technologies": ["C++"],
+    "date": "2004"
+  },
+  {
+    "name": "c-calc",
+    "description": "Calculator clone written in C",
+    "technologies": ["C", "Windows"],
+    "date": "2003"
+  },
+  {
+    "name": "assem-calc",
+    "description": "Calculator clone written in netwide assembly.",
+    "technologies": ["NASM", "Windows"],
+    "date": "2003"
   }
 ]

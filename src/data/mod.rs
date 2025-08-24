@@ -77,7 +77,9 @@ pub fn get_resume() -> Resume {
 }
 
 pub fn get_projects() -> Vec<Project> {
-    serde_json::from_str(PROJECTS).expect("valid json")
+    let mut projects: Vec<Project> = serde_json::from_str(PROJECTS).expect("valid json");
+    projects.sort_by(|a, b| b.date.cmp(&a.date));
+    projects
 }
 
 pub fn get_about() -> About {

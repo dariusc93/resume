@@ -197,15 +197,12 @@ pub fn projects_view() -> Html {
 fn render_project(project: &Project) -> Html {
     html! {
         <div class="project-card">
-            <div class="project-image">
-                if let Some(_image) = &project.image {
+            if let Some(_image) = &project.image {
+                <div class="project-image">
                     // TODO: Add section for image previews
                     <i class="fas fa-code"></i>
-                } else {
-                    <i class="fas fa-code"></i>
-                }
-            </div>
-
+                </div>
+            }
             <div class="project-content">
                 <h3 class="project-title">{&project.name}</h3>
                 if let Some(date) = &project.date {

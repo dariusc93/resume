@@ -217,8 +217,8 @@ fn render_project(project: &Project) -> Html {
                 <p class="project-description">{&project.description}</p>
 
                 <div class="tech-tags">
-                    { for project.technologies.iter().map(|tech| {
-                        html! { <span class="tech-tag">{tech}</span> }
+                    { for project.keywords.iter().map(|keyword| {
+                        html! { <span class="tech-tag">{keyword}</span> }
                     }) }
                 </div>
 

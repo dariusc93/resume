@@ -56,7 +56,7 @@ pub struct Resume {
 pub struct Project {
     pub name: String,
     pub description: Option<String>,
-    pub technologies: Vec<String>,
+    pub keywords: Vec<String>,
     pub website: Option<String>,
     pub github: Option<String>,
     pub image: Option<String>,
